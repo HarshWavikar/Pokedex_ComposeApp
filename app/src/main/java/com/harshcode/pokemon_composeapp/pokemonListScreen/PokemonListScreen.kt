@@ -137,7 +137,7 @@ fun SearchBarLayout(
                 if (!active) {
                     Text(text = "Search...")
                 } else {
-                    Text(text = "")
+                    Text(text = text)
 
                 }
             },
@@ -152,7 +152,7 @@ fun SearchBarLayout(
                     Icon(
                         modifier = Modifier.clickable {
                             if (text.isNotEmpty()) {
-                                text = ""
+                                text  = ""
                             } else {
                                 active = false
                             }

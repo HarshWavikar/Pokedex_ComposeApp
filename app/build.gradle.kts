@@ -74,6 +74,7 @@ dependencies {
 
 
 
+    implementation("androidx.compose.foundation:foundation:1.5.0")
     //Extended
     implementation("androidx.compose.material:material-icons-extended:1.5.0")
 
